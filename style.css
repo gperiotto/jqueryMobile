@@ -2,4 +2,8 @@
 /* CSS Document */
 
 
+h4:before{ /* prints sign before footer */
+    content: 'ECWM603, Mobile User Experience - Logbook 2'; 
+	color: #ffffff;
+}
 
