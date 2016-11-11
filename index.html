@@ -40,15 +40,15 @@
         </div>
 
         <div data-role="content">    
-            <div class="ui-grid-a">
-                <img class="img-circle" src="me.jpg">
-                <h1>A little about me</h1>
-            </div><!-- /grid-a -->  
-            <p>Hi, my name is Gabriel and I'm a focused and creative Computer Science undergraduate student with a passion for technology and design. Able to learn new computer techniques and languages with an optimistic attitude to new challenges. Enjoys tinkering with anything tech (such as smart devices, cameras, micro-computers) and keen to acquire skills in future career in web, mobile application and desktop application development.</p>
+            <h1>Hi, I'm Gabriel</h1>
+            
+            <p>I'm a focused and creative Computer Science undergraduate student with a passion for technology and design. Able to learn new computer techniques and languages with an optimistic attitude to new challenges. Enjoys tinkering with anything tech (such as smart devices, cameras, micro-computers) and keen to acquire skills in future career in web, mobile application and desktop application development.</p>
+            
         </div>
+        
         <hr class="hrDivider">
         <ul data-role="listview" data-inset="true" data-split-icon="arrow-r" id="listViewID">
-            <li data-role="list-divider" id="listDividerID">Navigation links</li>
+            <li data-role="list-divider" id="listDividerID">Navigation Links</li>
             <li>
                 <a href="#page_AboutMe">
                     <h3>About Me</h3>
@@ -81,21 +81,29 @@
         </div>
 
         <div data-role="content">
-
+            <div class="ui-grid-a">
+                <img class="img-circle" src="me.jpg">
+                <h1>A little about me</h1>
+            </div><!-- /grid-a -->  
+            
             <form>
             
                 <input data-type="search" id="searchableItems">
             </form>
 
             <div class="elements" data-filter="true" data-input="#searchableItems">
-                <h3>Background</h3>
-                <p>I'm a Brazillian-Italian national who has been living in the UK for over a decade.</p>
-
-                <h3>Hobbies</h3>
-                <p>Running is currently one of my favourties hobbies as I even plan on running the London Winter run next year. I also enjoy tinkeing with electronics and software. Anything from phones and camera's firmware to Micro Controllers and electroc motors.</p>
-
-                <h3>Study</h3>
-                <p>I'm currently a third year student of Computer Science at the University of Westminster. In my final year I have taken modules from a range of subjects, these include: mobile app development, Mobile UX, Real-Time and Embedded Systems and Web Analytics.</p>
+                
+                <p><span class="page_aboutMe_span">Background</span><br><br>I'm a Brazilian-Italian national who has been living in the UK for over a decade.</p>
+                
+                <hr class="hrDivider">
+                
+                
+                <p><span class="page_aboutMe_span">Hobbies</span><br><br>Running is currently one of my favorites hobbies as I even plan on running the London Winter run next year. I also enjoy tinkering with electronics and software. Anything from phones and camera's firmware to Micro Controllers and electric motors.</p>
+                
+                <hr class="hrDivider">
+                
+                
+                <p><span class="page_aboutMe_span">Study</span><br><br>I'm currently a third year student of Computer Science at the University of Westminster. In my final year I have taken modules from a range of subjects, these include: mobile app development, Mobile UX, Real-Time and Embedded Systems and Web Analytics.</p>
             </div>
 
 
@@ -120,36 +128,50 @@
 
         <div data-role="content">
 
-            <div data-role="collapsible" data-inset="false">
-
-                <h3>Flowmap</h3>
-                <ul data-role="listview" data-inset="true" data-split-icon="arrow-r" id="listViewID">
-                    <li>
-                        <a href="#page_AboutMe">
-                            <h3>About Me</h3>
-                            <p>Find out more</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#page_ProjectRole">
-                            <h3>Project Role</h3>
-                            <p>Find out more</p>
-                        </a>
-                    </li>
+            <h1>Project contribution</h1>
+            <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                <h4>Flowmaps</h4>
+                <ul data-role="listview" data-inset="true">
+                    <li><a href="#iphoneMain">iPhone Main Page Flowmap</a></li>
+                    <li><a href="#iphoneGame">iPhone Game Page FlowMap</a></li>                
                 </ul>
-
-
+            </div>
+            <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                <h4>Wireframes</h4>
+                <ul data-role="listview" data-inset="true">
+                    <li><a href="#iphoneMain">iPhone Main Page Flowmap</a></li>
+                    <li><a href="#iphoneGame">iPhone Game Page FlowMap</a></li>                
+                </ul>
             </div>
 
         </div>
-
         <div data-role="footer">
             <h4 class="footerText"></h4>
         </div>
 
+        
+        
+        
     </div><!--END of PROJECT PAGE-->
-
-
+        
+    <!-- iphoneMain Dialog page -->
+    <div data-role="dialog" data-theme="b" id="iphoneMain">
+        <div data-role="header">
+            <h1>iPhone Main Page</h1>
+        </div>
+        <div data-role="content">
+            <p>I can only be served as a dialog, and I don't need a data-rel="dialog" attribute on a link</p>
+        </div>
+    </div>
+    <!-- iphoneGame Dialog page -->
+    <div data-role="dialog" data-theme="b" id="iphoneGame">
+        <div data-role="header">
+            <h1>iPhone Game Page</h1>
+        </div>
+        <div data-role="content">
+            <p>I can only be served as a dialog, and I don't need a data-rel="dialog" attribute on a link</p>
+        </div>
+    </div>
 
 
 
