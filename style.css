@@ -7,3 +7,72 @@ h4:before{ /* prints sign before footer */
 	color: #303030;
 }
 
+#listViewID{
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    position: relative !important;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#listViewID li:nth-child(2){
+    border-radius: 0px;
+}
+
+#listDividerID{
+    background: #303030;
+    color: white;
+    border-radius: 10px 10px 0px
+        0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+[data-role=page]{
+    height: 100% !important;
+    position: relative !important;
+}
+
+[data-role=footer]{
+    
+    bottom: 0;
+    position: fixed!important;
+    top: auto !important;
+    width: 100%;
+}
+
+[data-role=content]{
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+#page_home .ui-grid-a{
+    margin: 0;
+    text-align: center;
+    
+}
+
+#page_home .ui-grid-a h1{
+    font-family: 'Yellowtail', cursive;
+    font-size: 60px;
+}
+
+.img-circle{
+    border-radius: 50%;
+    width 170px;
+    height: 170px; 
+}
+
+.hrDivider{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+}
+
