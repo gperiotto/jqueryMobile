@@ -1,1 +1,2 @@
 # jqueryMobile
+Simple jqueryMobile project
