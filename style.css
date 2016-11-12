@@ -120,6 +120,9 @@ body{
     margin-bottom: 60px;
 }
 
-#heading1{
-    
+
+
+.ui-collapsible-heading {
+/*    font-size: 7vmax !important;*/
+    font-size: 18px !important;
 }
